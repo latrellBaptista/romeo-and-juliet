@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="w7eEk%yi(1JE}hpi7Yvg">Player</variable><variable type="KIND_SpriteKind" id="rt*gnpz[b9H8tZTnurGU">Projectile</variable><variable type="KIND_SpriteKind" id="@q.]ru~nWAzb2fsA1US_">Food</variable><variable type="KIND_SpriteKind" id="MQzaH9Z{+i,Pln)q?cN0">Enemy</variable><variable id="aiJXgXm6R]FN7@2I3Q*d">Romeo</variable><variable id="qevNX-QFRyTgB8kQJUDV">mySprite</variable><variable id="(zUJ%02$Z5-79jfKL0Uw">Juliet</variable></variables><block type="pxt-on-start" id=":Y(3U3T#m8HDRm%SoG$," x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="-1{oKiL3[%Y*g^ScTB`X"><value name="color"><shadow type="colorindexpicker" id="H=gq:=9b9ke?{d@cBC_S"><field name="index">12</field></shadow></value><next><block type="variables_set" id="`ovVC?xGJUAvuiSPt)GI"><field name="VAR" id="aiJXgXm6R]FN7@2I3Q*d">Romeo</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="fURu#DK+6:m6cR3#nwAi"><value name="img"><shadow type="screen_image_picker" id="z?9F7,a[5*e$pkIJDN7O"><field name="img">img`
+. . . . f f f f . . . . . 
+. . f f f f f f f f . . . 
+. f f f f f f c f f f . . 
+f f f f f f c c f f f c . 
+f f f c f f f f f f f c . 
+c c c f f f e e f f c c . 
+f f f f f e e f f c c f . 
+f f f b f e e f b f f f . 
+. f 4 1 f 4 4 f 1 4 f . . 
+. f e 4 4 4 4 4 4 e f . . 
+. f f f e e e e f f f . . 
+f e f b 7 7 7 7 b f e f . 
+e 4 f 7 7 7 7 7 7 f 4 e . 
+e e f 6 6 6 6 6 6 f e e . 
+. . . f f f f f f . . . . 
+. . . f f . . f f . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="kFcQ6KAX.#4weLJ1vI)F"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id="Zgy=Js@Hxd1Bc8[(lLg)"><value name="sprite"><block type="variables_get" id="QGB/zFr}Ve$RKZqIk7Zc"><field name="VAR" id="aiJXgXm6R]FN7@2I3Q*d">Romeo</field></block></value><value name="x"><shadow type="positionPicker" id="0f+mqn@OJ$bktLVh*+b{"><field name="index">80</field></shadow></value><value name="y"><shadow type="positionPicker" id="5l_NI@DtA3O^PwaVRf8u"><field name="index">104</field></shadow></value><next><block type="variables_set" id="KG#|8p:%m__F;A~R,ig}"><field name="VAR" id="(zUJ%02$Z5-79jfKL0Uw">Juliet</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="/JZHzd.4BLpkOBi=[Uoo"><value name="img"><shadow type="screen_image_picker" id="@yBHE#N39wnc9[_hPbhm"><field name="img">img`
+. . . . . f f 4 4 f f . . . . . 
+. . . . f 5 4 5 5 4 5 f . . . . 
+. . . f e 4 5 5 5 5 4 e f . . . 
+. . f b 3 e 4 4 4 4 e 3 b f . . 
+. . f 3 3 3 3 3 3 3 3 3 3 f . . 
+. f 3 3 e b 3 e e 3 b e 3 3 f . 
+. f 3 3 f f e e e e f f 3 3 f . 
+. f b b f b f e e f b f b b f . 
+. f b b e 1 f 4 4 f 1 e b b f . 
+f f b b f 4 4 4 4 4 4 f b b f f 
+f b b f f f e e e e f f f b b f 
+. f e e f b d d d d b f e e f . 
+. . e 4 c d d d d d d c 4 e . . 
+. . e f b d b d b d b b f e . . 
+. . . f f 1 d 1 d 1 d f f . . . 
+. . . . . f f b b f f . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="f.k=%W[}Xs?HlaWM{CN9"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id="_[O.iWGS}35UuE8MZc7:"><value name="sprite"><block type="variables_get" id="+$RK8zwLrHmH43-;ywa-"><field name="VAR" id="(zUJ%02$Z5-79jfKL0Uw">Juliet</field></block></value><value name="x"><shadow type="positionPicker" id="$xmk~-t6Ry=?i0GD~DE%"><field name="index">80</field></shadow></value><value name="y"><shadow type="positionPicker" id="99B$#%BO|K*Ac-q{Zb[="><field name="index">39</field></shadow></value><next><block type="spritesay" id="U|c/;u9R..F;mFZ:qL8-"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="zZWx=+Javz}}~aq]9M4{"><field name="VAR" id="(zUJ%02$Z5-79jfKL0Uw">Juliet</field></block></value><value name="text"><shadow type="text" id="92BSw$P]ldXgzuRW}LI["><field name="TEXT">ROmeo</field></shadow></value><next><block type="device_pause" id="G?Sw.WpSbN[Mpj%Dl]a,"><value name="pause"><shadow type="timePicker" id="=I({@iz%A40eXfM$Jz^c"><field name="ms">2000</field></shadow></value><next><block type="spritesay" id="Z4.G.vY3ZSyH||lp:a-$"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="/Is=T5EFhbY5K^*4FW;h"><field name="VAR" id="aiJXgXm6R]FN7@2I3Q*d">Romeo</field></block></value><value name="text"><shadow type="text" id="(;VUHpg-}Rk=QUcC8%Oa"><field name="TEXT">My Dear?</field></shadow></value><next><block type="device_pause" id="!I(?TPHK0`LmHr5`)WH["><value name="pause"><shadow type="timePicker" id=";RN|N#79I6ilhB7:O|sQ"><field name="ms">3000</field></shadow></value><next><block type="spritesay" id="_yHpGbTcW__N!Ru#JnUt"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="10zxw*RR(y5N(2NJ.,On"><field name="VAR" id="(zUJ%02$Z5-79jfKL0Uw">Juliet</field></block></value><value name="text"><shadow type="text" id="g]+@vcAR03CT1=i+@{U-"><field name="TEXT">At what o'clock to-morrow shall I send to thee?</field></shadow></value><value name="millis"><shadow type="timePicker" id="=l3r)5cN9B#.N*V,5HQS"><field name="ms">5000</field></shadow></value><next><block type="device_pause" id="{JY*HByz?@Pao{ze0@E9"><value name="pause"><shadow type="timePicker" id="rEhMi]KC}Be$b:s$JH4y"><field name="ms">5000</field></shadow></value><next><block type="spritesay" id="`(7|qsC~zUb?C;Gqv/2#"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="0r=a#L6JSW(+Ne9SP?$2"><field name="VAR" id="aiJXgXm6R]FN7@2I3Q*d">Romeo</field></block></value><value name="text"><shadow type="text" id="(xB7V26qJrF!m-RGoMkv"><field name="TEXT">At the hour of nine</field></shadow></value><value name="millis"><shadow type="timePicker" id="l9U/F]e@]T*sQ94Gsxpx"><field name="ms">5000</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
